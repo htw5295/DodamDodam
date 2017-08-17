@@ -12460,7 +12460,7 @@
 //오픈 JS Library를 사용해서 차트를 제작
 //init_Chart는 html이 모두 로드되었을때 실핵되도록 구성
 function init_Chart(data,label) {
-  var data = data: {
+  var data = {
     labels: label, //하단 라벨은 요일을 표시
     datasets: [{
       label: 'magnitude', //방송사 채널을 표시
@@ -12469,7 +12469,7 @@ function init_Chart(data,label) {
       data: data
     }]
   };
-  var options = options: {
+  var options = {
       scales: {
         xAxes: [{
           display: false

@@ -18,8 +18,3 @@ body {
   height: auto;
   vertical-align: bottom;
 }
-
-#div_chart {
-  position: absolute;
-  bottom: 0px;
-}

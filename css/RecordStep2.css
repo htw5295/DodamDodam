@@ -3,6 +3,11 @@ html {
   padding: 0px;
 }
 
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 #bg {
   position: absolute;
   max-width: 100%;
@@ -11,8 +16,27 @@ html {
   vertical-align: bottom;
 }
 
-#record {
+.Button {
+  position: absolute
+  padding: 0px;
+  margin: 0px;
+}
+
+#start_button {
   position: absolute;
   width: auto;
   height: auto;
+  margin-left: 36.5%;
+  margin-top: 40%;
+  cursor: pointer;
+}
+
+#finish_button {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-left: 36.5%;
+  margin-top: 40%;
+  cursor: pointer;
+  display: none;
 }

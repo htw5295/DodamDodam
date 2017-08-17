@@ -18,7 +18,7 @@ window.onresize = function() {
 
   var icon = document.getElementsByClassName('Icon');
 
-  for (var i = 0; i < 8; i++) {
+  for (var i = 0; i < 4; i++) {
     icon[i].width = iconSize * widthRate;
     icon[i].height = iconSize * heightRate;
   }

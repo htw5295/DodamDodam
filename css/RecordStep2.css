@@ -7,7 +7,9 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
+.Bg{
+  height: 500px;
+}
 #bg {
   position: absolute;
   max-width: 100%;
@@ -16,17 +18,25 @@ body {
   vertical-align: bottom;
 }
 
+.Button {
+  position: absolute
+  padding: 0px;
+  margin: 0px;
+}
+
 #start_button {
   position: absolute;
   margin-left: 40.5%;
   margin-top: 40%;
   cursor: pointer;
+  top:-15px;
 }
 
 #finish_button {
   position: absolute;
-  margin-left: 36.5%;
+  margin-left: 40.5%;
   margin-top: 40%;
   cursor: pointer;
   display: none;
+  top:-15px;
 }

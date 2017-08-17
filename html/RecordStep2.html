@@ -41,11 +41,6 @@
 	<div class="Bg">
 		<img id="bg" src="../img/bg_step2.png">
 	</div>
-
-	<div class="Button">
-		<img class="Icon" id="start_button" src="../img/start_record.png" onclick="onClickRecord()">
-		<img class="Icon" id="finish_button" src="../img/finish_record.png" onclick="onClickRecord()">
-	</div>
 	<div class="" style="position: relative; width:100%; color:#6C6C6C;font-size:1.2em; text-align:center">
 		<strong>미용실에 간 사자</strong><br>
 		<br>
@@ -71,9 +66,15 @@
 		<br>지나가던 참새들이 아가( 곰, 사자, 토끼 )를 놀려대네요!
 		<br>
 	</div>
+		<img class="Icon" id="start_button" src="../img/start_record.png" onclick="onClickRecord()">
+		<img class="Icon" id="finish_button" src="../img/finish_record.png" onclick="onClickRecord()">
 
 	<div id="div_chart"><canvas id="myChart"></canvas></div>
-
+	
+	<div id="viz">
+		<canvas id="analyser" width="1024" height="500" style="display:none"></canvas>
+		<canvas id="wavedisplay" width="1024" height="500"></canvas>
+	</div>
 </body>
 <script type="text/javascript" src="./js/speech.js"></script>
 

@@ -10,3 +10,9 @@ html {
   height: auto;
   vertical-align: bottom;
 }
+
+#record {
+  position: absolute;
+  width: auto;
+  height: auto;
+}

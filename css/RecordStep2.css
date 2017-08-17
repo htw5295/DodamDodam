@@ -16,12 +16,6 @@ body {
   vertical-align: bottom;
 }
 
-.Button {
-  position: absolute;
-  padding: 0px;
-  margin: 0px;
-}
-
 #start_button {
   position: absolute;
   margin-left: 36.5%;

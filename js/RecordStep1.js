@@ -24,6 +24,6 @@ window.onresize = function() {
   }
 }
 
-function onClickStroy() {
+function onClickStory() {
   location.replace('../html/RecordStep2.html');
 }

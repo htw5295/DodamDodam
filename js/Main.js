@@ -26,3 +26,7 @@ window.onresize = function() {
     icon[i].height = iconHeight[i] * heightRate;
   }
 }
+
+function onClickRecord() {
+  location.replace('../html/RecordStep1.html');
+}

@@ -29,46 +29,46 @@ body {
   position:absolute;
   margin-left: 12.8%;
   margin-top: 21.43%;
+  cursor: pointer;
 }
 
 #icon01:hover {
   content: url('../img/icon01_large.png');
   transform:scale(1.3);
-  cursor: pointer;
 }
 
 #icon02 {
   position:absolute;
   margin-left: 36.145%;
   margin-top: 21.87%;
+  cursor: pointer;
 }
 
 #icon02:hover {
   content: url('../img/icon02_large.png');
   transform:scale(1.3);
-  cursor: pointer;
 }
 
 #icon03 {
   position:absolute;
   margin-left: 59.88%;
   margin-top: 21.92%;
+  cursor: pointer;
 }
 
 #icon03:hover {
   content: url('../img/icon03_large.png');
   transform:scale(1.3);
-  cursor: pointer;
 }
 
 #icon04 {
   position:absolute;
   margin-left: 83.55%;
   margin-top: 22.01%;
+  cursor: pointer;
 }
 
 #icon04:hover {
   content: url('../img/icon04_large.png');
   transform:scale(1.3);
-  cursor: pointer;
 }

@@ -1,0 +1,82 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  /*padding-top: 117.605%;
+  background: url(../img/bg_main.png) no-repeat center;
+  background-size: contain;*/
+}
+
+#bg {
+  position: absolute;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.Icon {
+  position: absolute
+  padding: 0px;
+  border: 0px;
+}
+
+#icon01 {
+  position: absolute;
+  margin-left: 2.55%;
+  margin-top: 43%;
+  cursor: pointer;
+}
+
+#icon02 {
+  position: absolute;
+  margin-left: 28.58%;
+  margin-top: 43%;
+  cursor: pointer;
+}
+
+#icon03 {
+  position: absolute;
+  margin-left: 54.58%;
+  margin-top: 43%;
+  cursor: pointer;
+}
+
+#icon04 {
+  position: absolute;
+  margin-left: 80.61%;
+  margin-top: 43%;
+  cursor: pointer;
+}
+
+#icon05 {
+  position: absolute;
+  margin-left: 2.58%;
+  margin-top: 67.64%;
+  cursor: pointer;
+}
+
+#icon06 {
+  position: absolute;
+  margin-left: 28.5%;
+  margin-top: 67.64%;
+  cursor: pointer;
+}
+
+#icon07 {
+  position: absolute;
+  margin-left: 54.58%;
+  margin-top: 67.64%;
+  cursor: pointer;
+}
+
+#icon08 {
+  position: absolute;
+  margin-left: 80.61%;
+  margin-top: 67.64%;
+  cursor: pointer;
+}

@@ -30,3 +30,6 @@ window.onresize = function() {
 function onClickRecord() {
   location.replace('../html/RecordStep1.html');
 }
+function onClickSave() {
+  location.replace('../html/Main.html');
+}

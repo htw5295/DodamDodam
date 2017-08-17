@@ -18,3 +18,15 @@ body {
   height: auto;
   vertical-align: bottom;
 }
+
+#save {
+  position: absolute;
+  cursor: pointer;
+  width: 16.7%;
+  height: 11%;
+  margin-left: 42%;
+  margin-top: 58.7%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 40px;
+}

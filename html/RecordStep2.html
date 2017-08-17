@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="../css/RecordStep2.css">
+<html lang="en" ng-app="recorder">
+	<head>
+		<meta charset="utf-8">
+		<title>도담도담 STT</title>
+  <link rel="stylesheet" href="../css/RecordStep2.css">
   <script type="text/javascript" src="../js/RecordStep2.js"></script>
+  <script type="text/javascript" src="../js/Chart.js"></script>
   <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
 </head>
-<body>
-  <div class="Bg">
-    <img id="bg" src="../img/bg_step2.png">
-  </div>
-</body>
+	<body ng-controller="RecorderController"onload="init_Chart();">
+		<div class="Bg">
+	    <img id="bg" src="../img/bg_step2.png">
+	  </div>
+
+		<div id="div_chart">
+			<canvas id="myChart"></canvas>
+		</div>
+		  </body>
+		  <script type="text/javascript" src="./js/speech.js"></script>
 </html>

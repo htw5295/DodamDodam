@@ -1,13 +1,3 @@
-var check = 1;
-
-function onClickRecord() {
-  if (check == 1) {
-    check = 2;
-  } else {
-    location.replace('../html/RecordStep3.html');
-  }
-}
-
 /* Copyright 2013 Chris Wilson
 
    Licensed under the Apache License, Version 2.0 (the "License");

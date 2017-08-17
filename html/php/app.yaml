@@ -1,0 +1,10 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: .
+
+# [START env_variables]
+env_variables:
+  GOOGLE_BUCKET_NAME: "dodamdodam_record"
+# [END env_variables]

@@ -3,14 +3,6 @@ html {
   padding: 0px;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  /*padding-top: 117.605%;
-  background: url(../img/bg_main.png) no-repeat center;
-  background-size: contain;*/
-}
-
 #bg {
   position: absolute;
   max-width: 100%;

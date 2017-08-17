@@ -52,5 +52,7 @@ canvas {
 
 #div_chart {
   position: absolute;
+  width: 100%;
+  height: 30%;
   bottom: 1%;
 }

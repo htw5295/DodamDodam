@@ -7,9 +7,11 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
 .Bg{
   height: 500px;
 }
+
 #bg {
   position: absolute;
   max-width: 100%;
@@ -39,4 +41,9 @@ body {
   cursor: pointer;
   display: none;
   top:-15px;
+}
+
+#myChart {
+  width: 80%;
+  height: 70%;
 }

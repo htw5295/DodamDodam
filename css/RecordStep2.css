@@ -17,15 +17,13 @@ body {
 }
 
 .Button {
-  position: absolute
+  position: absolute;
   padding: 0px;
   margin: 0px;
 }
 
 #start_button {
   position: absolute;
-  width: auto;
-  height: auto;
   margin-left: 36.5%;
   margin-top: 40%;
   cursor: pointer;
@@ -33,8 +31,6 @@ body {
 
 #finish_button {
   position: absolute;
-  width: auto;
-  height: auto;
   margin-left: 36.5%;
   margin-top: 40%;
   cursor: pointer;

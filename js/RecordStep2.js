@@ -3,6 +3,13 @@ var check = 1;
 var width = 368;
 var height = 169;
 
+function onloadChange(){
+  document.getElementsByClassName("Bg")[0].style.height = document.getElementById("bg").height+"px";
+}
+function sizeChange(){
+  document.getElementsByClassName("Bg")[0].style.height = document.getElementById("bg").height+"px";
+}
+
 window.onload = function() {
   var widthRate = $('#bg').width() / 1920;
   var heightRate = $('#bg').height() / 1861;
